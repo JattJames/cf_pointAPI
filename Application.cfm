@@ -1,6 +1,6 @@
 <cfapplication name="pointAPI" clientmanagement="yes" sessionmanagement="yes" loginstorage="session">
-<cfset request.APIToken = "5df7489c-09cc-d418-d507-e0172659b8c2">
-<cfset request.APIUsername = "gavy@jatt.com">
+<cfset request.APIToken = "---Your API Token --->">
+<cfset request.APIUsername = "<1--- Your API Password Token --->">
 <cffunction name="jsonencode" access="remote" returntype="string" output="No"
 		hint="Converts data from CF to JSON format">
 	<cfargument name="data" type="any" required="Yes" />
